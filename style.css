@@ -1,0 +1,9 @@
+html, body, canvas {
+	margin: 0;
+	padding: 0;
+	
+}
+.canvas {
+    background-color: rgba(94, 201, 107, 0.68);
+   
+}
