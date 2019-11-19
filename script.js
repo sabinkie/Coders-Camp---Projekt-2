@@ -134,6 +134,17 @@ function addFoodXright() {
 
 
 
+function addFoodY() {
+	ctx.clearRect(foodX, foodY, unit, unit);
+	//ctx.clearRect(snakeCoordinates.x, snakeCoordinates.y, unit, unit);
+	snakeCoordinates.y === foodY;
+	foodY -= unit;
+	ctx.fillStyle = "rgb(61, 141, 50)"
+	ctx.fillRect(foodX, foodY, unit, unit);
+	console.log("food", randomFood, foodX);
+	console.log("snake", snakeCoordinates);
+	};
+
 function addFoodYdown() {
 	ctx.clearRect(foodX, foodY, unit, unit);
 	//ctx.clearRect(snakeCoordinates.x, snakeCoordinates.y, unit, unit);
